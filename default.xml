@@ -19,6 +19,9 @@
   <remote  name="MR"
            fetch="https://github.com/multirom-htc" />
 
+  <remote  name="MRarmani"
+           fetch="https://github.com/multirom-armani" />
+
   <remote  name="CM"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" 
@@ -159,18 +162,18 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
-  <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
-  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="multirom" revision="master" />
-  <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
+  <project name="multirom" path="system/extras/multirom" remote="MRarmani" revision="master" />
+  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MRarmani" revision="master" />
+  <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="MRarmani" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
-  <project name="kernel_htc_m8gpe" path="kernel/htc/m8gpe" remote="MR" revision="L" />
-  <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="multirom-L" >
-       <copyfile src="mr-m8.sh" dest="mr-m8.sh" />
+  <project name="android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="MRarmani" revision="mm6.0" />
+  <project name="android_device_xiaomi_armani" path="device/xiaomi/armani" remote="MRarmani" revision="omni" >
+       <copyfile src="mr-armani.sh" dest="mr-armani.sh" />
   </project>
-  <project name="multirom-m8.github.io" path="external/multirom" remote="MR" revision="master" />
+  <project name="multirom-armani.github.io" path="external/multirom" remote="MRarmani" revision="master" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-12.1" />
   <project name="android_external_lz4" path="external/lz4" remote="CM" revision="cm-12.1" />
   <project name="pub/scm/linux/kernel/git/jaegeuk/f2fs-stable" path="external/f2fs" remote="AOSP" revision="linux-3.4.y" />

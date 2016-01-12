@@ -7,7 +7,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the MULTI-ROM trees, use a command like this:
 
-    repo init -u git://github.com/multirom-m8/android.git -b master
+    repo init -u git://github.com/multirom-armani/android.git -b master
 
 Then to sync up:
 
@@ -15,7 +15,7 @@ Then to sync up:
 
 Then to build for the M8:
 
-     ./mr-m8.sh
+     ./mr-armani.sh
 
 Or for other devices, the old-fashioned way:
      
