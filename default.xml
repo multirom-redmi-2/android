@@ -71,7 +71,7 @@
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <!-- <project path="external/busybox" name="android_external_busybox" remote="omnirom" /> -->
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
@@ -180,7 +180,6 @@
   <project name="multirom-redmi2.github.io" path="external/multirom" remote="MRredmi2" revision="master" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-13.0" />
   <project name="android_external_lz4" path="external/lz4" remote="CM" revision="cm-12.1" />
-  <project name="android_external_busybox" path="external/busybox" remote="CM" revision="cm-13.0" />
   <project name="pub/scm/linux/kernel/git/jaegeuk/f2fs-stable" path="external/f2fs" remote="AOSP" revision="linux-3.4.y" />
 
 
