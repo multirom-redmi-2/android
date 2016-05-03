@@ -169,8 +169,8 @@
   <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="multirom" revision="android-6.0" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="MRredmi2" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
-  <!-- <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" /> -->
-  <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="MR6P" revision="master" />
+  <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
+  <!-- <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="MR6P" revision="master" /> -->
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
   <!-- <project name="android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="MRredmi2" revision="mm6.0" /> -->
