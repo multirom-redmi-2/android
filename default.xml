@@ -33,6 +33,9 @@
   <remote  name="multirom"
            fetch="https://github.com/Tasssadar" />
 
+  <remote  name="MR6P"
+             fetch="https://github.com/multirom-nexus6p" />
+
   <default revision="refs/tags/android-5.1.1_r13"
            remote="aosp"
            sync-c="true"
@@ -68,7 +71,7 @@
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="omnirom" />
+  <!-- <project path="external/busybox" name="android_external_busybox" remote="omnirom" /> -->
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
@@ -129,7 +132,7 @@
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
+  <!-- <project path="external/stlport" name="platform/external/stlport" groups="pdk" /> -->
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tinycompress" name="platform/external/tinycompress" />
@@ -163,10 +166,11 @@
   
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
   <project name="multirom" path="system/extras/multirom" remote="MRredmi2" revision="master" />
-  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="multirom" revision="master" />
+  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="multirom" revision="android-6.0" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="MRredmi2" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
-  <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
+  <!-- <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" /> -->
+  <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="MR6P" revision="master" />
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
   <!-- <project name="android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="MRredmi2" revision="mm6.0" /> -->
@@ -174,8 +178,10 @@
        <copyfile src="mr-wt88047.sh" dest="mr-wt88047.sh" />
   </project>
   <project name="multirom-redmi2.github.io" path="external/multirom" remote="MRredmi2" revision="master" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-12.1" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-13.0" />
   <project name="android_external_lz4" path="external/lz4" remote="CM" revision="cm-12.1" />
+  <project name="android_external_busybox" path="external/busybox" remote="CM" revision="cm-13.0" />
+  <project name="android_external_stlport" path="external/stlport" remote="CM" revision="cm-13.0" />
   <project name="pub/scm/linux/kernel/git/jaegeuk/f2fs-stable" path="external/f2fs" remote="AOSP" revision="linux-3.4.y" />
 
 
