@@ -174,7 +174,7 @@
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
   <!-- <project name="android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="MRredmi2" revision="mm6.0" /> -->
-  <project name="android_device_wingtech_wt88047" path="device/xiaomi/armani" remote="MRredmi2" revision="omni" >
+  <project name="android_device_wingtech_wt88047" path="device/wingtech/wt88047" remote="MRredmi2" revision="omni" >
        <copyfile src="mr-wt88047.sh" dest="mr-wt88047.sh" />
   </project>
   <project name="multirom-redmi2.github.io" path="external/multirom" remote="MRredmi2" revision="master" />
