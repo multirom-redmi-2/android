@@ -132,7 +132,7 @@
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
-  <!-- <project path="external/stlport" name="platform/external/stlport" groups="pdk" /> -->
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tinycompress" name="platform/external/tinycompress" />
@@ -181,7 +181,6 @@
   <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-13.0" />
   <project name="android_external_lz4" path="external/lz4" remote="CM" revision="cm-12.1" />
   <project name="android_external_busybox" path="external/busybox" remote="CM" revision="cm-13.0" />
-  <project name="android_external_stlport" path="external/stlport" remote="CM" revision="cm-13.0" />
   <project name="pub/scm/linux/kernel/git/jaegeuk/f2fs-stable" path="external/f2fs" remote="AOSP" revision="linux-3.4.y" />
 
 
