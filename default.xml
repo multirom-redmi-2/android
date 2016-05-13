@@ -21,8 +21,8 @@
            fetch="https://github.com/Tesla-M"
            revision="mm6.0" />           
 
-  <remote  name="MR"
-           fetch="https://github.com/multirom-htc" />
+  <remote  name="multirom"
+           fetch="https://github.com/Tasssadar" />
 
   <remote  name="MRredmi2"
            fetch="https://github.com/multirom-redmi2" />
