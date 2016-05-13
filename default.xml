@@ -372,8 +372,8 @@
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
 
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
-  <project name="premaca/android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="github" revision="dt2w" />
-  <project name="premaca/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="cm-13.0"/>
+  <project name="android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="MRredmi2" revision="dt2w" />
+  <project name="android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="MRredmi2" revision="cm-13.0"/>
   <project name="android_device_wingtech_wt88047" path="device/wingtech/wt88047" remote="MRredmi2" revision="mrom" >
        <!--
        <copyfile src="mr-wt88047.sh" dest="mr-wt88047.sh" />
