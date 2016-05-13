@@ -50,7 +50,6 @@
   <!-- END CM -->
 
   <!-- SLIM -->
-  <project path="bootable/recovery" name="bootable_recovery" remote="slim" />
   <project path="device/qcom/common" name="device_qcom_common" remote="slim" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="slim" />
@@ -367,13 +366,15 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
 
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
-  <project name="multirom" path="system/extras/multirom" remote="MRredmi2" revision="master" />
   <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="multirom" revision="android-6.0" />
+  <project name="multirom" path="system/extras/multirom" remote="MRredmi2" revision="master" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="MRredmi2" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
-  
+
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
+  <project name="premaca/android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="git" revision="dt2w" />
+  <project name="premaca/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="git" revision="cm-13.0"/>
   <project name="android_device_wingtech_wt88047" path="device/wingtech/wt88047" remote="MRredmi2" revision="mrom" >
        <!--
        <copyfile src="mr-wt88047.sh" dest="mr-wt88047.sh" />
