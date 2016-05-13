@@ -41,7 +41,6 @@
   <project path="frameworks/native" name="frameworks_native" remote="tm" />
   <project path="system/bt" name="system_bt" remote="tm" />
   <project path="system/core" name="system_core" remote="tm" />
-  <project path="manifest" name="manifest" remote="tm" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
   <!-- END TESLA -->
  
