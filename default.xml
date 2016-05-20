@@ -60,7 +60,9 @@
   <project path="external/connectivity" name="android_external_connectivity" revision="mm6.0" remote="slim" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="slim" />
   <project path="external/exfat" name="android_external_exfat" remote="slim" />
+  <!--
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" />
+  -->
   <project path="external/fuse" name="android_external_fuse" remote="slim" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" />
@@ -380,6 +382,8 @@
        -->
   </project>
   <project name="multirom-redmi2.github.io" path="external/multirom" remote="MRredmi2" revision="master" />
+  
+  <project name="omnirom/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="android-6.0" />
   <!--
   <project name="pub/scm/linux/kernel/git/jaegeuk/f2fs-stable" path="external/f2fs" remote="AOSP" revision="linux-3.4.y" />
   -->
