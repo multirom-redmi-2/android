@@ -365,7 +365,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
 
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
-  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="multirom" revision="android-6.0" />
+  <project name="android_bootable_recovery" path="bootable/recovery" remote="MRredmi2" revision="android-6.0-mrom" />
   <project name="multirom" path="system/extras/multirom" remote="MRredmi2" revision="master" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="MRredmi2" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
