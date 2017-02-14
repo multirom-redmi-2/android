@@ -7,7 +7,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the MULTI-ROM trees, use a command like this:
 
-    repo init -u git://github.com/MR-op3/manifest.git -b mr
+    repo init -u git://github.com/MR-op3/manifest.git -b mr-7.0
 
 Then to sync up:
 
