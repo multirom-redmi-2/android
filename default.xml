@@ -105,15 +105,15 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
 
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
-  <project name="android_bootable_recovery" path="bootable/recovery" remote="mr" revision="mr-7.0" />
-  <project name="multirom" path="system/extras/multirom" remote="mr" revision="mr-7.0" />
+  <project name="android_bootable_recovery" path="bootable/recovery" remote="mr" revision="mr-7.1" />
+  <project name="multirom" path="system/extras/multirom" remote="mr" revision="mr-7.1" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="mr" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
 
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
   <project name="kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="mr" revision="n7.1" />
-  <project name="device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="mr" revision="mr-7.0"/>
+  <project name="device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="mr" revision="mr-7.1"/>
   <project name="slim-opt/device_oppo_common" path="device/oppo/common" remote="github" revision="test" />
   <project name="device_oneplus_oneplus2" path="device/oneplus/oneplus2" remote="mr" revision="mr"/>
   <project name="kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="mr" revision="toxic" />
