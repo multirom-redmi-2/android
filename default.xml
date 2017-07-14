@@ -8,22 +8,18 @@
 
   <remote  name="slim"
            fetch="https://github.com/SlimRoms"
-           revision="mm6.0" />
+           revision="ng7.1" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod"
-           revision="cm-13.0" />
+           fetch="https://github.com/LineageOS"
+           revision="cm-14.1" />
 
   <remote name="bb"
           fetch="https://bitbucket.org/" />
 
-  <remote  name="vm"
-           fetch="https://github.com/ValidusOs-M"
-           revision="mm6.0" />
-
   <remote  name="tipsy"
            fetch="https://github.com/TipsyOs"
-           revision="6.0" />
+           revision="n7.1" />
 
   <remote  name="multirom"
            fetch="https://github.com/Tasssadar" />
@@ -31,7 +27,7 @@
   <remote  name="mr"
            fetch="https://github.com/MR-op3" />
 
-  <default revision="refs/tags/android-6.0.1_r52"
+  <default revision="refs/tags/android-7.1.2_r23"
            remote="aosp"
            sync-j="4" />
 
@@ -40,7 +36,7 @@
   </project>
   <project path="bionic" name="android_bionic" remote="slim" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="mr" revision="mm6.0" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="slim" />
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="slim" />
   <project path="system/keymaster" name="android_system_keymaster" remote="slim" />
@@ -58,9 +54,10 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/misc" name="prebuilts_misc" remote="mr" revision="mm6.0" />
 
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="mm6.0" />
+  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="ng7.1" />
   <project path="system/extras" name="android_system_extras" remote="slim" />
   <project path="system/netd" name="android_system_netd" remote="slim" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="tipsy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" />
 
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
@@ -82,13 +79,11 @@
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
-  <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
@@ -100,7 +95,6 @@
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="tipsy" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
