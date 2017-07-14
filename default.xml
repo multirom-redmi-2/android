@@ -16,7 +16,7 @@
 
   <remote name="bb"
           fetch="https://bitbucket.org/" />
-           
+
   <remote  name="vm"
            fetch="https://github.com/ValidusOs-M"
            revision="mm6.0" />
@@ -64,7 +64,8 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" />
 
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
- 
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="SlimRoms/vendor_qcom_opensource_cryptfs_hw" remote="github" revision="ng7.1"/>
+
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
