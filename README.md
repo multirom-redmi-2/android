@@ -7,7 +7,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the MULTI-ROM trees, use a command like this:
 
-    repo init -u git://github.com/MR-op3/manifest.git -b nougat
+    repo init -u https://github.com/multirom-redmi2/android.git -b nougat
 
 Then to sync up:
 
