@@ -30,7 +30,7 @@
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="bionic" name="android_bionic" remote="slim" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="slim" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="slim" revision="mm6.0" />
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="slim" />
   <project path="system/keymaster" name="android_system_keymaster" remote="slim" />
