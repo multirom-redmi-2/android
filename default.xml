@@ -115,18 +115,6 @@
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
 
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
-  <project name="kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="mr" revision="n7.1" />
-  <project name="device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="mr" revision="mr-7.1"/>
-  <project name="slim-opt/device_oppo_common" path="device/oppo/common" remote="github" revision="test" />
-  <project name="device_oneplus_oneplus2" path="device/oneplus/oneplus2" remote="mr" revision="mr"/>
-  <project name="kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="mr" revision="toxic" />
-  <project name="device_oneplus_onyx" path="device/oneplus/onyx" remote="mr" revision="mr" />
-  <project name="kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="mr" revision="mr" />
-  <project name="device_oneplus_bacon" path="device/oneplus/bacon" remote="mr" revision="nougat" >
-      <copyfile src="mr-bacon.sh" dest="mr-bacon.sh" />
-  </project>
-  <project name="kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="mr" revision="mr" />
-
 <!-- EXTRA -->
   <project name="extra" path="extra" remote="mr" revision="mr" />
 
