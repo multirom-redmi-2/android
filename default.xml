@@ -17,6 +17,9 @@
   <remote  name="multirom"
            fetch="https://github.com/multirom-dev" />
 
+  <remote  name="MRredmi2"
+           fetch="https://github.com/multirom-redmi2" />
+
   <remote  name="mr"
            fetch="https://github.com/MR-op3" />
 
@@ -115,6 +118,13 @@
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
 
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
+  <project name="android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="MRredmi2" revision="mrom" />
+  <project name="android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="MRredmi2" revision="mrom"/>
+  <project name="android_device_wingtech_wt88047" path="device/wingtech/wt88047" remote="MRredmi2" revision="mrom" >
+       <!--
+       <copyfile src="mr-wt88047.sh" dest="mr-wt88047.sh" />
+       -->
+  </project>
 <!-- EXTRA -->
   <project name="extra" path="extra" remote="mr" revision="mr" />
 
